@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const ADMIN_API_URL = 'https://anatta-test-store.myshopify.com/admin/api/2023-04/graphql.json';
-const ADMIN_TOKEN = '';
+const ADMIN_TOKEN = 'YOUR_SHOPIFY_ACCESS_TOKEN';
 
 const query = `
     query($cursor: String) {
